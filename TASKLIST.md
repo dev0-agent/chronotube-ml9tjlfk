@@ -10,7 +10,7 @@ It is automatically updated by dev0 as tasks are completed.
 - [x] ✅ **Project Setup and Environment Configuration**
   Initialize the project structure. Create an `env.ts` module to handle environment variables (even if empty for now, it's good practice). Clean up the default Vite template (remove assets, generic CSS). Set up the folder structure: `components`, `lib`, `hooks`, `db`, `types`.
 
-- [ ] ⏳ **Define Data Schema with Drizzle**
+- [x] ✅ **Define Data Schema with Drizzle**
   Install `drizzle-orm`. Create `db/schema.ts`. Define two main schemas: `videos` (id, youtubeId, title, thumbnail, createdAt) and `bookmarks` (id, videoId, timestamp, note, tags, createdAt). Export TypeScript types inferred from these schemas. Note: We are using Drizzle for schema definition and type inference, which will then be used to validate data saved to LocalStorage.
 
 - [ ] ⏳ **Implement LocalStorage Repository Pattern**

@@ -30,4 +30,11 @@ Use this format when adding learnings:
 
 ## Learnings Log
 
-_(Agents will append their learnings below as tasks are completed)_
+### Task: Define Data Schema with Drizzle
+- **Completed:** 2026-02-05
+- **Task ID:** 8a8f5ae4-f437-4d57-b603-15b4bdea1e0b
+- **Learnings:**
+  - Using `drizzle-orm` for schema definition and type inference provides a robust way to maintain type safety even in a client-side app using LocalStorage.
+  - `sqliteTable` from `drizzle-orm/sqlite-core` is a suitable choice for defining schemas that don't have a specific database target but need structure.
+  - Inferred types via `InferSelectModel` and `InferInsertModel` ensure consistency between the schema definition and application code.
+
