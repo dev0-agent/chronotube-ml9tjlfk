@@ -13,7 +13,7 @@ It is automatically updated by dev0 as tasks are completed.
 - [x] ✅ **Define Data Schema with Drizzle**
   Install `drizzle-orm`. Create `db/schema.ts`. Define two main schemas: `videos` (id, youtubeId, title, thumbnail, createdAt) and `bookmarks` (id, videoId, timestamp, note, tags, createdAt). Export TypeScript types inferred from these schemas. Note: We are using Drizzle for schema definition and type inference, which will then be used to validate data saved to LocalStorage.
 
-- [ ] ⏳ **Implement LocalStorage Repository Pattern**
+- [x] ✅ **Implement LocalStorage Repository Pattern**
   Create a `lib/storage.ts` utility. This should implement basic CRUD operations (getAll, getById, create, update, delete) for both Videos and Bookmarks. It should read/write to LocalStorage, parsing the JSON and validating it against the types generated in Task 2. Include a custom hook `useStore` or similar for React components to access this data.
 
 - [ ] ⏳ **App Shell and Navigation Layout**
