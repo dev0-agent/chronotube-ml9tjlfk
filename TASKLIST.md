@@ -16,7 +16,7 @@ It is automatically updated by dev0 as tasks are completed.
 - [x] ✅ **Implement LocalStorage Repository Pattern**
   Create a `lib/storage.ts` utility. This should implement basic CRUD operations (getAll, getById, create, update, delete) for both Videos and Bookmarks. It should read/write to LocalStorage, parsing the JSON and validating it against the types generated in Task 2. Include a custom hook `useStore` or similar for React components to access this data.
 
-- [ ] ⏳ **App Shell and Navigation Layout**
+- [x] ✅ **App Shell and Navigation Layout**
   Create the main application layout using shadcn/ui components (Sidebar/Sheet for mobile, Header). The layout should have navigation links for 'Library' and 'Settings'. Implement a responsive container for the main content area.
 
 ## Phase 2

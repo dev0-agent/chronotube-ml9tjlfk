@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "commitMessage": "feat: implement main application layout with sidebar and header\n\n- Added shadcn/ui sidebar and sheet components\n- Created AppSidebar with Library and Settings navigation\n- Created Layout component for consistent app shell structure\n- Updated App.tsx to use the new Layout",
+  "prTitle": "Implement App Shell and Navigation Layout",
+  "prBody": "This PR implements the main application shell for ChronoTube.\n\n### Changes:\n- Installed required shadcn/ui components: `sidebar`, `sheet`, `skeleton`, and `tooltip`.\n- Implemented `AppSidebar` which includes navigation links for 'Library' and 'Settings'.\n- Created a `Layout` component that provides the `SidebarProvider`, `AppSidebar`, a responsive `Header` with a `SidebarTrigger`, and a main content area.\n- Wrapped the main `App` component with the `Layout` to provide a consistent UI structure.\n- Verified type safety with `tsc --noEmit`.\n\nThe layout is responsive and uses a sheet-based sidebar on mobile devices.",
+  "notes": "The sidebar currently uses placeholder links (`#`) as no routing library is currently implemented. The layout follows shadcn/ui best practices and integrates with the existing tailwind configuration."
+}
