@@ -7,7 +7,7 @@ It is automatically updated by dev0 as tasks are completed.
 
 ## Phase 1
 
-- [ ] ⏳ **Project Setup and Environment Configuration**
+- [x] ✅ **Project Setup and Environment Configuration**
   Initialize the project structure. Create an `env.ts` module to handle environment variables (even if empty for now, it's good practice). Clean up the default Vite template (remove assets, generic CSS). Set up the folder structure: `components`, `lib`, `hooks`, `db`, `types`.
 
 - [ ] ⏳ **Define Data Schema with Drizzle**
